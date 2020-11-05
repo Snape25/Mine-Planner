@@ -1,0 +1,75 @@
+.text-effect{
+
+  font-family: 'VT323', monospace;
+  font-size: 170px;
+  text-transform: uppercase;
+  color:green;
+  margin-top: calc(50vh - 100px);
+}
+ 
+
+
+body {
+  background: lightblue;
+  text-align: center
+}
+
+@font-face {
+  font-family: 'Minecraft';
+  src: url('http://charliecowan.co.uk/mcbuttongenerator/fonts/mcfont.eot');
+  src: url('http://charliecowan.co.uk/mcbuttongenerator/fonts/mcfont.eot?#iefix') format('embedded-opentype'),
+       url('http://charliecowan.co.uk/mcbuttongenerator/fonts/mcfont.woff') format('woff'),
+       url('http://charliecowan.co.uk/mcbuttongenerator/fonts/mcfont.ttf')  format('truetype'),
+       url('http://charliecowan.co.uk/mcbuttongenerator/fonts/mcfont.svg#svgFontName') format('svg');
+}
+
+.button {
+  height: 40px;
+  width: 70px;
+  outline: 2px solid black;
+  position: relative;
+  margin: 0;
+  display: inline-block;
+  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_center.png');
+  background-repeat: repeat;
+  padding: 0;
+  font-family: Minecraft;
+  text-align: center;
+  color: white;
+  text-shadow: 3px 3px #4C4C4C;
+  border-bottom: 4px solid #565656;
+  border-right: 2px solid #565656;
+  border-left: 2px solid #AAA;
+  border-top: 2px solid #AAA;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.button span {
+  position: relative;
+  line-height: 40px;
+  bottom: 3px;
+}
+
+.button:hover {
+  border-bottom: 4px solid #59639A;
+  border-right: 2px solid #59639A;
+  border-left: 2px solid #BDC6FF;
+  border-top: 2px solid #BDC6FF;
+  background-image: url('http://charliecowan.co.uk/mcbuttongenerator/button_active_center.png');
+  color: #FFFFA0;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  
+}
+
+.topright2 {
+  position: absolute;
+  top: 8px;
+  right: 100px;
+  
+}
